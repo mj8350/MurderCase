@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5309864178222662279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6008707953029190608}
+  - component: {fileID: 8200653807487728436}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6008707953029190608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5309864178222662279}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8200653807487728436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5309864178222662279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e0b2061b3f68824783a466f223c990c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClueBoard: {fileID: 0}
+  Board: {fileID: 0}
+  Clue: {fileID: 0}
+  text: {fileID: 0}
+  Clues:
+  - {fileID: 21300000, guid: c629a001b5b5a464c8054fb7ed7c5d01, type: 3}
+  - {fileID: 21300000, guid: b67ea8477c1e5a94ebd6fdfc2364a484, type: 3}
+  - {fileID: 21300000, guid: 2af8eae9cd5f9714292c9634685a38f5, type: 3}
+  - {fileID: 21300000, guid: 4b796d9a97e36174f94a39892d2011c8, type: 3}
+  - {fileID: 21300000, guid: 8fa72a49fc9cc004f97cf8905642b5ba, type: 3}
+  - {fileID: 21300000, guid: 75693693485fdcd4390a9d867494115d, type: 3}
+  - {fileID: 21300000, guid: d94dceb22c72eef4cb0c774630aef5ed, type: 3}
+  - {fileID: 21300000, guid: 905a8aa70f0a43d4c9f6c135218d67fa, type: 3}
+  - {fileID: 21300000, guid: 9009ee396c75e5843a91e9983f317f41, type: 3}
+  - {fileID: 21300000, guid: d947e59fcbd96174ea6a45c5d7d536c7, type: 3}
+  - {fileID: 21300000, guid: 9e6eb3144429b9c4fa3d4fdfb01e4b1c, type: 3}
+  - {fileID: 21300000, guid: b9ff3bbbd2b42934a805571b0b066e1f, type: 3}
+  - {fileID: 21300000, guid: 4c525f0ffa411b744a983eb5b564e917, type: 3}
+  - {fileID: 21300000, guid: 452ff0f6ed2aa234ca4c7cff5154aa24, type: 3}
+  - {fileID: 21300000, guid: 7c49a73075a47844db3c1cd714df2b58, type: 3}
+  - {fileID: 21300000, guid: b22d3c706bf3aea41bc9a25758113361, type: 3}
+  - {fileID: 21300000, guid: 9008b6eb52c58894da87a50738cb5b3b, type: 3}
+  - {fileID: 21300000, guid: 86289f940f880af41be5347b68eef787, type: 3}
+  - {fileID: 21300000, guid: c124c598998694840827b731a86c0792, type: 3}
+  - {fileID: 21300000, guid: 6c5ce2c69c382aa4eade3c10cdac4780, type: 3}
+  - {fileID: 21300000, guid: 0f0dcbd8033aab547a1a9dd076ef6f77, type: 3}
+  - {fileID: 21300000, guid: 7b1af406f33bdbb4e932ab919f2919f8, type: 3}
+  - {fileID: 21300000, guid: 5a8f3fccc611e3a449fd217d257d1445, type: 3}
+  - {fileID: 21300000, guid: 37f9fbffe3a1a1949a93a34a381e0f9c, type: 3}
+  - {fileID: 21300000, guid: 385a36e682ea14646a248b8af6765070, type: 3}
+  - {fileID: 21300000, guid: 533dd289e19957043bfa345e65e0b473, type: 3}
+  - {fileID: 21300000, guid: 7d07799bb3453e745b32cbf43b82a70e, type: 3}
+  - {fileID: 21300000, guid: 2604ce79e1084f6428e89d3fa6d46fbe, type: 3}
+  - {fileID: 21300000, guid: f4719049844072f4e9218acd78d9bdb1, type: 3}
+  - {fileID: 21300000, guid: 61695fea60414414e871508fb347d894, type: 3}
+  - {fileID: 21300000, guid: 353a98aa44f35cb44964ab933b4949cd, type: 3}
+  - {fileID: 21300000, guid: 13ec61ade7450cc44ba84a64e26f7088, type: 3}
+  - {fileID: 21300000, guid: 85af0af10f0a3ca499015c6d8f37a5a0, type: 3}
+  - {fileID: 21300000, guid: 5f4db4915006ad745ba08fa4d9d2c513, type: 3}
+  - {fileID: 21300000, guid: 07bd67c1023643241a130e27ad35b3a0, type: 3}
+  - {fileID: 21300000, guid: d9af08d910c9f134eb10cb925255c211, type: 3}
+  Phone: {fileID: 0}
+  inputText: {fileID: 0}
+  PhoneScreen: {fileID: 0}
+  Fade: {fileID: 0}
+  D_Board: {fileID: 0}
+  D_Clue: {fileID: 0}
